@@ -1,0 +1,21 @@
+[package]
+name = "enum-range"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+keywords = ["struct", "enum", "variant", "range", "code-generation"]
+categories = ["data-structures"]
+description = "derive macro defining ranges of variants in enum with discriminators"
+repository = "https://github.com/mxyns/enum-range"
+
+[lib]
+proc-macro = true
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+syn = "2.0.28"
+quote = "1.0.32"
+proc-macro2 = "1.0.66"
+darling = "0.20.3"
+regex = "1.10.3"

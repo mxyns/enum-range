@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "crates/enum-range",
+    "example"
+]
+resolver = "2"

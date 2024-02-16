@@ -1,0 +1,9 @@
+[package]
+name = "example"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+enum-range = { path = "../crates/enum-range" }
+serde = { version = "1.0.183", features = ["derive"] }
+serde_json = { version = "1.0.105" }
